@@ -1,0 +1,21 @@
+---
+title: "Collaborative strategies"
+description: "Post description"
+author: "Florencia D'Andrea"
+date: "5/22/2021"
+categories:
+  - Branching
+  - Forking
+  - pull request
+---
+
+
+-   What is the difference between merging and doing a pull request?
+
+in both cases you can have merge conflicts! In both cases you are merging branches!
+
+-   When to use branching and when forking?
+
+Here it is key to think in the repository settings
+
+-   github issues when to open them

@@ -1,0 +1,21 @@
+---
+title: "About"
+image: favicon.png
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+    # (additional links excluded for brevity)
+---
+
+
+## About this blog
+example https://github.com/rbind/yutani/blob/master/custom.scss
+
+
+This is the contents of the about page for my blog.

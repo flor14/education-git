@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  title: Teaching Git and GitHub
+  favicon: favicon.png
+  open-graph: 
+     site-name: Teaching
+  twitter-card: 
+    creator: "@cantoflor_87"
+  site-url: https://example.com
+  google-analytics: "UA-XXXXXXXX"
+  page-navigation: true
+  reader-mode: true # 
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Material"
+        file: material.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "FAQ"
+        file: faq.qmd
+  
+  sidebar:
+    - title: "Material"
+      style: "docked"
+      background: light
+      contents: 
+        - material.qmd
+        - material/basic-workflow.qmd
+        - material/project-history.qmd
+        - material/branches.qmd     
+        - material/collaboration.qmd  
+        - material/github-pages.qmd 
+format:
+  html:
+    theme: 
+      - yeti
+      - theme.scss
+      
+    toc: true
+    toc-title: "Contents"
+
+    
+page-footer:
+  right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+  left: "&copy; Copyright 2022, Florencia D'Andrea"
+  background: "#D9E3E4"
+
