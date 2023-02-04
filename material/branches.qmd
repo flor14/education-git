@@ -1,20 +1,18 @@
 ---
-title: "Merging branches and pull requests"
-description: "Post description"
-author: "Florencia D'Andrea"
-date: "5/22/2021"
+title: "2.1 - Merging branches and pull requests"
+description: | 
+               NEXT!   
+               
+# author: "Florencia D'Andrea"
+# date: "5/22/2021"
+image: img/pull-request.jpg
 categories:
-  - git switch
+  - git switch 
   - git merge
   - pull request
+  - branches
+  - git log 
+bibliography: references.bib
 ---
 
-Features based development
-
--   good practices
-
--   `master` replaced by `main`
-
-This could be interesting to include due to many open source projects that started before the change will still conserve `master` as the main branch
-
-As an example imagine that you want to contribute to this [multilingual glossary for computing and data science terms](https://glosario.carpentries.org/) created by The Carpentries, an inclusive community willing to teach data and coding skills. If you explore the GitHub repo of the project (https://github.com/carpentries/glosario) you will see a file called `CONTRIBUTING.md` where it is explained how someone can add new terms to the glossary. In general, when you want to contribute to a public repository as this one, you will have to **fork the repository** first because you don't have write access. Forking it allow you to create a copy in your GitHub account of the repository at that moment.
+quarto

@@ -1,0 +1,14 @@
+---
+title: "1.4 - Going back in time"
+description: |  
+          NEXT!
+image: img/time-travel.png
+categories:
+  - git reset
+  - git revert
+  - releases
+  - git tag
+bibliography: references.bib
+---
+  
+Next!

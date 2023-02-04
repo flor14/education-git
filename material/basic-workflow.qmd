@@ -1,8 +1,10 @@
 ---
-title: "Basic workflow"
-description: "Post description"
-author: "Florencia D'Andrea"
-date: "5/22/2021"
+title: "1.2 - Basic workflow"
+description: | 
+              - Implement Git’s clone, add, status, commit, pull, and push operations on the command line.
+              - Understand what implies using the staging area in a Git workflow.
+date: "01/27/2023"
+image: img/arrows.jpg
 categories:
   - git clone
   - git add
@@ -10,62 +12,57 @@ categories:
   - git commit
   - git pull
   - git push
+  - git log
+  - git fetch
+bibliography: references.bib
 ---
 
-Something that happen when we are teaching a tool is that part of our expertise should be used to confront the students with situations that they have never experienced.
 
-### **Differenciate Between Git and GitHub**
+## Why to teach this?
 
-Well done in DSCI 100
+**Implement Git’s clone, add, status, commit, pull, and push operations on the command line.**
+-  Understand what the commands are doing in relation with the different elements involved (ie. what is the `staging area`, the `index`, the `repository` and the `working directory`?) is not trivial and should actively involve part of the classes activities. Building a basic but functional initial representation of Git system could be the major learning goal of any Git course teaching the basic workflow.
 
-This would be key to understand other complicated concepts as the staging area
+**Understand what implies using the staging area in a Git workflow**
+- .
 
-### **What is a Git repository?**
+## Connection to other relevant topics hat should be mentioned /explained
 
-Time to talk a bit of the filesystem?
+#### Git related
 
-Many of the pitfalls the students went through last year were around not understanding the core pieces of vocabulary. For example, some students weren't familiar with basic elements of the file system:
+- **The staging area and the local repository**
+- These two compartments should be introduce to finish figuring out a mental model.
+  [This lesson](https://coderefinery.github.io/git-intro/staging-area/) of code refinery focus on the staging area, teaching a lot of commands related to it. It would be a nice exercise to go through this after the students finished learning the initial Git commands.
 
-*student: Is a folder the same as a directory?*
+- **Best practices**
+  - How often to commit, pull and push. 
+  - [How to write good commit messages](https://coderefinery.github.io/git-intro/basics/#writing-useful-commit-messages).
+  
 
-This non answered questions leads them to more confusion with upstream terminology that involves a step towards abstraction:
+- **.gitignore**
+Once we teach that there is a remote repository and that we can push there, it is possible to introduce `.gitignore`.
+Material: 
 
-*student: Is a (Git) repository also a synonym of a directory?* *They both look like folders, they should be the same...*
 
-Making the students actively work with these terms is vital to avoid misconceptions to operate over their learning. If these concepts are not clear at this point could create an "snow-ball effect" and evolve to errors more difficult to detect. For example, I have helped to debug errors produced by creating Git repositories inside other Git repositories, mainly because the students were not aware they were doing so.
 
-Link to Stack Overflow question
+## Mental Model 
 
-One question to possible solve that is:
+![](img/mm-basic-workflow.png){width=500 fig-align="center"}
 
--   Why it is not a good idea to clone the Git repositories you are using for the labs inside the cloned folder of the course?
 
-### **The staging area**
+## Activities 
 
-One of the benefits of using the staging area is that you can add more files at the same time.
+- The Carpentries - [Version Control with Git - Tracking Changes](https://swcarpentry.github.io/git-novice/04-changes/index.html)
+- Data Science 100 @timbers2022data
+- Code Refinery - [Exercises - Record changes](https://coderefinery.github.io/git-intro/basics/#exercise-record-changes)
+- Git Kata -  [Git Kata: Basic Commits](https://github.com/eficode-academy/git-katas/blob/master/basic-commits/README.md)
+- Git Kata -  [Git Kata: Basic Staging](https://github.com/eficode-academy/git-katas/blob/master/basic-commits/README.md)
+- Learn enough Git to Be Dangerous - Michale Harti [Our first commit - exercises](https://www.learnenough.com/git-tutorial#sec-exercises_our_first_commit)
+- Learn enough Git to Be Dangerous - Michale Harti [Adding a tag -  `git log` exercise](https://www.learnenough.com/git-tutorial#sec-exercises_adding_a_tag)
+- https://github.com/UOL-CS/gitruler-b-1
 
-### **Good commit's names**
+# References {.unnumbered}
 
-### **The connection between Git and GitHub before teaching pull and push**
+::: {#refs}
 
-Here is where the book of Jenny Bryan is pure gold!
-
-Probably the first approach will be start by teaching
-
-one option before getting into all the complexity.
-
--   One common error arises when, after creating the repository locally
-
-it is not so straightforward to link it to the correspondent
-
-GitHub repository.
-
-### How often commit and how often to pull/push
-
-This is not generally taugh.
-
-### Pulling and pushing are important parts
-
-git push --set-upstream origin new-branch
-
-pushing a new branch
+:::

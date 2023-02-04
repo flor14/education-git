@@ -1,0 +1,56 @@
+---
+title: "1.3 - Version control"
+description: |
+              - Recognize the commit as the primary building block for storing a project version 
+date: "01/27/2023"
+image: img/version-control.jpg
+categories:
+  - git add
+  - git commit
+  - git diff
+  - git log
+  - version control
+bibliography: references.bib
+---
+
+## Why to teach this?
+- Most of the Git courses start saying that Git is the tool that will help you to track the history of your project and version control your files. But, what does it means? 
+
+The motivating example we gave at the start of the class should be explicitly connected with the use of the tool. It seems important to link the real world example with the representation, in this case how the changes in our files are saved in the different commits, exemplifies well how version control works with Git.
+
+- Understanding how Git version control files is a good starting point to introduce `git diff <commit1-HASH> <commit2-HASH>` and complement it with `git log`.
+
+## Other related topics
+- What is a HASH number and how Git uses it?
+This blogpost can help [Hash Values (SHA-1) in Git: What You Need To Know - Techlife](https://www.designveloper.com/blog/hash-values-sha-1-in-git/)
+- Flags
+Some flags could be useful to visualize with more detail the difference among the versions.
+
+- How to visualize among files with the URL using GitHub
+
+- Best practices
+  - Good commit's names
+
+
+## Mental model
+
+![](img/mm-version-control.png){width=400 fig-align="center"}
+![](img/mm-version-control-remote.png){width=500 fig-align="center"}
+
+## Activities
+I consider activities about version control not only the ones about the workflow 
+
+- The Carpentries
+- Code Refinery - [Exercise: Record changes](https://coderefinery.github.io/git-intro/basics/#exercise-record-changes)
+
+
+
+
+# References {.unnumbered}
+
+::: {#refs}
+
+:::
+
+The image in this chapter T
+The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.

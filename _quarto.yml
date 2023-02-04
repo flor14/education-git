@@ -2,40 +2,54 @@ project:
   type: website
 
 website:
-  title: Teaching Git and GitHub
+  title: Git Teaching Kit
   favicon: favicon.png
   open-graph: 
-     site-name: Teaching
+     site-name: Git Teaching Kit
   twitter-card: 
     creator: "@cantoflor_87"
   site-url: https://example.com
   google-analytics: "UA-XXXXXXXX"
   page-navigation: true
-  reader-mode: true # 
   navbar:
+    logo: git-icon-500.png
     background: primary
     search: true
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Material"
+      - text: "Git Instructor Kit"
         file: material.qmd
+      - text: "Towards an advanced Git Course"
+        file: blogpost.qmd
+     # - text: "Other links"
+     #   file: how-to-interpret-the-material.qmd
+    #  - text: "FAQ"
+    #    file: faq.qmd
       - text: "About"
         file: about.qmd
-      - text: "FAQ"
-        file: faq.qmd
+
   
   sidebar:
-    - title: "Material"
+    - header: "Main topics"
       style: "docked"
       background: light
+      collapse-level: 1
       contents: 
-        - material.qmd
-        - material/basic-workflow.qmd
-        - material/project-history.qmd
-        - material/branches.qmd     
-        - material/collaboration.qmd  
-        - material/github-pages.qmd 
+        - section: "1. Basic Git Workflow"
+          contents:
+            - material/git-github.qmd
+            - material/basic-workflow.qmd
+            - material/version-control.qmd
+            - material/go-back-time.qmd
+        - section: "2. Collaborative strategies"
+          contents:
+            - material/branches.qmd     
+      #      - material/collaboration.qmd  
+      #      - material/project-history.qmd
+      #  - section: "3. GitHub Tools"
+      #    contents:
+      #      - material/github-pages.qmd 
 format:
   html:
     theme: 
@@ -45,9 +59,17 @@ format:
     toc: true
     toc-title: "Contents"
 
+    title-block-banner: false
+    license: "CC BY"
     
 page-footer:
   right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
   left: "&copy; Copyright 2022, Florencia D'Andrea"
   background: "#D9E3E4"
 
+#author:
+  # - name: Florencia D'Andrea
+  #  url: https://florencia.netlify.app
+  #  affiliation: University of British Columbia
+ #   affiliation-url: https://voltrondata.com
+ #   orcid: 0000-0001-7648-6578

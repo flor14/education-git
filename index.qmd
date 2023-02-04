@@ -1,62 +1,56 @@
 ---
 title: "Activities to teach version control"
-subtitle: "Resources for educators based in students common learning obstacles"
+subtitle: "A collection of Git open-source resources for educators"
+sidebar: false
+page-layout: full
+bibliography: main-references.bib
 ---
 
-## Hello! Nice to meet you.
 
-This is not a course about Git. This is a roadmap to the most common pitfalls I found as Git/GitHUb teacher (and user) and a curated selection of exercises to make potential new students fail in those same strategic situations.
-
-Git has become almost an universal tool to version control files. It doesn't matter what programming language you are using, probably you will be sharing your code on GitHub to collaborate in open source projectsor even if you are workin in a company.
-
-Even if there is online material and tutorials to learn how to use Git, as educator my role is to prepare the class making the students struggle before they face this problems in the real world. Education is the art of trying to make our students fail in a controlled way. Hands-on educative approach (ie constructivist) put the focus on the stuents and there is where it shoucl be.
-
-This project is basically an attemp to leave my notes is a very opinionated curation of Git and GitHub exercises based in the learning objectives I am focusing for teaching in MDS.
-
-All the examples I use in this webpage are freely available online in communities as The Carpentries.
+![](git-subway.png){width=1000}
 
 
-What will you find here?
+## What are you going to find here?
+
+- **[Git Instructor Kit](/material)** Some activities, representations and useful links to teach Git/GitHub topics.
+
+![](git-rainbow.png){width=1000}
+
+## Welcome!
+
+There is plenty of online material and tutorials to learn how to use Git. But this is not a course about Git. The idea of this webpage is to provide educators who teach Git and GitHub with a series of tools.
+
+In this kit, each sub-topic has associated commands, representations, and activities to work with students. Why organize it like this?
+
+## Dealing with abstraction
+Git is a complex subject to teach for many reasons. Like other technical issues, understanding how Git commands work involves handling a high level of abstraction. The commands perform actions within hidden folders on our computer and compartments that we cannot see.
+In order to deal with teaching these topics, it becomes interesting to keep representations in mind in order to help students build mental models.
+That is why we have included in each section, a minimal representation that we should help the students to build at that stage and the Git commands associated.
+If you want to learn more about this, I recommend that you read the blog post I wrote about it.
+
+## Dealing with complexity
+Git is a very complex subject to teach, there are many sub-topics or commands and mental models to understand in depth. It becomes essential to create a clear roadmap, in order to help students build their understanding from the simplest to the most advanced representations and commands.
+I have classified the themes according to my opinion in topics, associating commands, mental maps and activities that can go in each one of them.
+It is up to each instructor how to use these blocks of information or sub-topics to create their own learning objectives. This will make it easier to design a customized course, being able to adapt/use the activities associated with each topic.
 
 
+### How this information could be useful for an educator?
 
-### The invisible tool
-Git is never the star of the game. Git is a tool that you use when you are working in something else, so it is never your primary goal to be a really skilled Git and GitHub user. 
-Maybe your goal is to create a machine learning model or create a website. Git is only visible when things are messed up and you have a merge conflict or you commit a mistake and you have to return to a previous commit.  
-In this way, Git user experience involves many moments that resembles  deactivating an explosive.
+My goal with this website is:
 
-### Dealing with abstraction
-There are many complexities in relation to teach Git, the biggest one in my opinion is the high level of abstraction that is needed to can understand what the commands are doing. Building a strong mental model of Git should be the first big objective of any Git course teaching the basic workflow.
+1 - Compile and organize information for educators that are brave enough to propose a new curriculum for the version control lessons or redesign/adapt their classes.
 
-The learning objectives x, y and z try to explore that. 
+2 - Associate to each topic to teach with the Git commands, learning objectives and a possible mental model - representation of the elements covered at that stage. 
 
-But abstraction is not only part of this when are teaching the commands. Branching for example, is another concept that can be really clarified with the help of visualizations, that are not easy to understand and can have variations in different IDEs.
+![How to access the information in this blog. Images from @the_turing_way_community_2022 ](screen-intro.png){width=600 fig-align='center'}
 
-The learning objectives x, y and z explore that.
+### Can I learn Git and GitHub from this website?
 
-### Programmers are humans!
-Collaborating with others. Here GitHub takes the lead with a battery of tools that support the collaborative use of Git. 
-But it is also possible
-
-Effective use of the tool could imply good commit messages and meaningful name of branches. This has nothing to do with the tool, but will ensure the effective use of the tool.
-
-### The victorinox
-Git and GitHub have many tools. Some of them will be practical only in particular reasons. The desicion among using git revert or git reset could be done in relation if you are working with colleagues or only by yourself.
-Teaching the tool is affected by the use. Should the use of `git stash` be only explained as a handy tool to avoid merge conflicts? You can also use it for X.
-There is not a correct answer, this will be defined in relation to the learning outcome expected as instructor but it is definetly something that should be considered in relation.
-
-### Towards and advanced Git and GitHub course
-You will see that all the explanations ends with a section called "What is next?". My idea is to continue finding / clasifying / generating exercises on this topics to make them more advanced. 
-
-Es an educator I know quite well the challenges that teaching sciences and technology could be implemented. 
-
-The final goal of this project is to list all the 
+Well, it was not my original purpose. There are many good tutorials and courses that you can explore for free as for example The Carpentries course. 
 
 
-Learning Objectives
+# References {.unnumbered}
 
+::: {#refs}
 
-
-Do you want to explore what this project is about? Read our [FAQ](faq.qmd) section!
-
-
+:::

@@ -1,0 +1,95 @@
+---
+title: "1.1 - Git and GitHub"
+description: |  
+              - Differentiate GitHub as a remote hosting service for version control and Git as a version control system.
+              - Describe the purpose of the `.git` directory.
+date: "01/27/2023"
+image: img/git-collage.png
+categories:
+  - .git folder
+  - git init
+  - git remote
+  - GitHub
+bibliography: references.bib
+---
+
+## Why to teach this?
+
+**Differentiate between the use of GitHub as a remote hosting service for version control and Git as a version control system**  
+  
+- Are Git and GitHub the same thing? The first step towards building a concept map of Git and GitHub is to understand what this tool called Git and its online counterpart GitHub. 
+
+**Describe the purpose of the `.git` directory.**
+
+- To start building a good mental model
+The link between the hidden `.git` folder and the existence of all this properties that convert any folder in a Git repository, are one of the first learning objectives that should be adressed. Similarly when teaching biology and you have to explain what happens with molecules or bacterias, something impossible to see in a direct way, we have to explain that all this compartments or files that we are going to be using to move files and folders are part of another folder.
+
+- To understand well de difference between clone and download from GitHub.   
+Cloning is not ONLY downloading the material, it is also downloading the history of the project.
+
+- To prevent errors.  
+There are many errors that can occur when you save a Git directory inside another Git project folder. Nested projects including `.git` folders are not easy to detect if you have not idea how to recognize a Git repository.   
+
+
+## Other topics that should be mentioned /explained
+
+:::{.callout-tip collapse=true}
+
+ **Installation instructions**  
+
+Do the students have all what they need to work on your course? Software installation can be complex.
+
+- For a complete installation guide I suggest to follow [UBC MDS program installation instructions](https://ubc-mds.github.io/resources_pages/installation_instructions/) available for three different operating systems.
+
+- If want only to install Git, [Code Refinery has a specific section](https://coderefinery.github.io/installation/shell-and-git/#installation) on its material with their suggested installation also prepared for the three operating systems.
+
+- If you don't want to install the sooftware can also use other technologies as [Binder](https://mybinder.org/), that will make available
+
+- Once the software is installed you would like to configure propoerly Git
+How to configure properly Git you can read the lesson chapter [Setting up Git from The Carpentries](https://swcarpentry.github.io/git-novice/02-setup/index.html). and also check this specific webpage from
+ 
+:::
+
+## Are your students ready for Git? Do they know about...
+- **...the file system?**   
+What is the working directory? What is the home directory? If this is the first time that the students are working with this vocabulary, [Glossario](https://glosario.carpentries.org/) is multilingual glossary for computing and data science terms.
+- **...hidden folders?**   
+The `.git` folder is a hidden folder. Are the students familiar with this concept? How can they confirm that there is a hidden folder. The Carpentries lesson about Git has good material about it
+- **...the command line?**  
+If you are going to teach Git commands using the command line. Are the students familiar with their use? If it is not the case there are many IDEs as RStudio, VSCode or JupyterLab that provide interfaces to access the commands. The carpentries lesson about UNIX Shell is good resource to extract exercises and other valuable material.
+If your students already know about the command line, using [Aliases and other advanced  configuration](https://coderefinery.github.io/git-intro/aliases/#list-of-aliases-the-instructors-use) could be an option.
+
+## Mental Model 
+
+![](img/mm-git-github.png){width=500 fig-align="center"}
+
+
+## Activities for the students
+
+- [Data Science - A first Introduction (worksheets)](https://github.com/UBC-DSCI/data-science-a-first-intro-worksheets/blob/main/worksheet_version_control/worksheet_version_control.ipynb) 
+Activities to create a repository on GitHub 
+
+- The Carpentries - Version Control with Git - [Creating a repository](https://swcarpentry.github.io/git-novice/03-create/index.html)
+
+- The Carpentries - Data Carpentry -[Git in GitHub](https://swcarpentry.github.io/git-novice/03-create/index.html)
+
+- Code refinery - Introduction to Version Control with Git
+Here you will find the [list of exercises](https://coderefinery.github.io/git-intro/exercises/). 
+
+- Happy git with R
+
+
+## Other Git related topics that can be explained at this stage
+
+- **Cloning: first to create the repository or is better to run `git init`?**
+To teach novices, probably is better to start creating a repository on GitHub and cloning from there. Jenny Bryan's book "Happy Git with R" is a great reading about this topics.
+- **Connecting to GitHub with SHH**
+Is your connection to the remote secure? ["With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit."](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)". The best material here is GitHub Documentation as it is probably updated with the latest updates.
+
+
+# References {.unnumbered}
+
+::: {#refs}
+
+
+:::

@@ -1,21 +1,20 @@
 ---
 title: "About"
-image: favicon.png
+image: in_case_of_fire.png
 about:
-  template: jolla
+  template: broadside
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/cantoflor_87
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/flor14
     # (additional links excluded for brevity)
+sidebar: false
 ---
 
-
-## About this blog
-example https://github.com/rbind/yutani/blob/master/custom.scss
+Hi! If you want to know more you can read [my blog](www.florenciadandrea.com). Thank you!
 
 
-This is the contents of the about page for my blog.
+Image extracted from: https://github.com/hendrixroa/in-case-of-fire
