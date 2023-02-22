@@ -39,7 +39,7 @@ The goals of this website are:
 
 1 - Compile and organize information for educators that are brave enough to redesign/adapt their classes or propose a new curriculum for the version control lessons.
 
-2 - Suggest a sequence of Git commands, learning objectives, and mental models for each learning stage, and activities that help students transition between stages.
+2 - Suggest a sequence of Git commands, learning objectives, mental models for each learning stage, and activities that help students transition between stages.
 
 ![How to access the information in this blog. Images from @the_turing_way_community_2022](screen-intro.png){width=600 fig-align='center'}
 
