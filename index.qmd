@@ -12,42 +12,43 @@ bibliography: main-references.bib
 
 ## What are you going to find here?
 
-- **[Git Instructor Kit](/material)** Some activities, representations and useful links to teach Git/GitHub topics.
+- **[Git Instructor Kit](https://git-teaching-kit.netlify.app/material.html)** Some activities, representations and useful links to teach Git/GitHub topics.
 
 ![](git-rainbow.png){width=1000}
 
 ## Welcome!
 
-There is plenty of online material and tutorials to learn how to use Git. But this is not a course about Git. The idea of this webpage is to provide educators who teach Git and GitHub with a series of tools.
+There are many online materials and tutorials to learn how to use Git. But this is not a course about Git. The idea of this webpage is to compile and share with educators who teach Git and GitHub with a series of tools. In this kit, each sub-topic has associated commands, visual representations, and activities to work with students. 
 
-In this kit, each sub-topic has associated commands, representations, and activities to work with students. Why organize it like this?
+Why compile this information?
 
 ## Dealing with abstraction
-Git is a complex subject to teach for many reasons. Like other technical issues, understanding how Git commands work involves handling a high level of abstraction. The commands perform actions within hidden folders on our computer and compartments that we cannot see.
-In order to deal with teaching these topics, it becomes interesting to keep representations in mind in order to help students build mental models.
-That is why we have included in each section, a minimal representation that we should help the students to build at that stage and the Git commands associated.
-If you want to learn more about this, I recommend that you read the blog post I wrote about it.
+
+Git is a complex subject to teach for many reasons. Like other technical topics, understanding how Git commands work involves handling a high level of abstraction. The commands perform actions within hidden folders on our computer and compartments that we cannot easily "see".
+In order to effectively teach these topics, if is helpful to keep visual representations in mind in order to help students build mental models.
+With this in mind, we have put together an array of sections with exercises and associated Git commands that were selected for various stages of student understanding.
+If you want to learn more about this, I recommend that you read this [blogpost](https://git-teaching-kit.netlify.app/blogpost.html).
 
 ## Dealing with complexity
-Git is a very complex subject to teach, there are many sub-topics or commands and mental models to understand in depth. It becomes essential to create a clear roadmap, in order to help students build their understanding from the simplest to the most advanced representations and commands.
-I have classified the themes according to my opinion in topics, associating commands, mental maps and activities that can go in each one of them.
-It is up to each instructor how to use these blocks of information or sub-topics to create their own learning objectives. This will make it easier to design a customized course, being able to adapt/use the activities associated with each topic.
-
+When teaching Git, there are many sub-topics, commands, and mental models to understand in depth. It becomes essential to create a clear roadmap in order to help students build their understanding from the simplest to the most advanced representations and commands.
+The goal of this project is to highlight tools to build on that roadmap in ways that help you to meet your learning objectives. It is up to each instructor how to use these blocks of information. This will make it easier to design a customized course, adapt/use the activities associated with each topic, and support students better in your programming courses.
 
 ### How this information could be useful for an educator?
 
-My goal with this website is:
+The goals of this website are:
 
-1 - Compile and organize information for educators that are brave enough to propose a new curriculum for the version control lessons or redesign/adapt their classes.
+1 - Compile and organize information for educators that are brave enough to redesign/adapt their classes or propose a new curriculum for the version control lessons.
 
-2 - Associate to each topic to teach with the Git commands, learning objectives and a possible mental model - representation of the elements covered at that stage. 
+2 - Suggest a sequence of Git commands, learning objectives, and mental models for each learning stage, and activities that help students transition between stages.
 
-![How to access the information in this blog. Images from @the_turing_way_community_2022 ](screen-intro.png){width=600 fig-align='center'}
+![How to access the information in this blog. Images from @the_turing_way_community_2022](screen-intro.png){width=600 fig-align='center'}
 
 ### Can I learn Git and GitHub from this website?
 
-Well, it was not my original purpose. There are many good tutorials and courses that you can explore for free as for example The Carpentries course. 
+Well, it was not the original purpose. There are many good tutorials and courses that you can explore for free. For example, [The Carpentries](https://swcarpentry.github.io/git-novice/) course. 
 
+
+> You can cite this webpage using the following DOI: https://doi.org/10.5281/zenodo.7604305
 
 # References {.unnumbered}
 
