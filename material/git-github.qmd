@@ -1,8 +1,8 @@
 ---
 title: "1.1 - Git and GitHub"
 description: |  
-              - Differentiate GitHub as a remote hosting service for version control and Git as a version control system.
-              - Describe the purpose of the `.git` directory.
+              - Differentiate between GitHub as a remote hosting service for version control and Git as a version control system.
+              - Explain the purpose of the `.git` directory.
 date: "01/27/2023"
 image: img/git-collage.png
 categories:
@@ -13,25 +13,24 @@ categories:
 bibliography: references.bib
 ---
 
-## Why to teach this?
+## Why teach this?
 
 **Differentiate between the use of GitHub as a remote hosting service for version control and Git as a version control system**  
   
-- Are Git and GitHub the same thing? The first step towards building a concept map of Git and GitHub is to understand what this tool called Git and its online counterpart GitHub. 
+- Are Git and GitHub the same thing? The first step towards building a mental model of Git and GitHub is to understand what these tools, called Git and its online counterpart GitHub, are for. 
 
-**Describe the purpose of the `.git` directory.**
+**Explain the purpose of the `.git` directory.**
 
-- To start building a good mental model
-The link between the hidden `.git` folder and the existence of all this properties that convert any folder in a Git repository, are one of the first learning objectives that should be adressed. Similarly when teaching biology and you have to explain what happens with molecules or bacterias, something impossible to see in a direct way, we have to explain that all this compartments or files that we are going to be using to move files and folders are part of another folder.
+- Similar to teaching chemistry, explanations about the structure of a molecule are impossible to demonstrate directly and will need representations. When it comes to `.git`, we have to explain it as a necessary element to be able to use the commands and Git well.
 
-- To understand well de difference between clone and download from GitHub.   
+- To gain a clear understanding of the difference between clone and download from GitHub.
 Cloning is not ONLY downloading the material, it is also downloading the history of the project.
 
 - To prevent errors.  
-There are many errors that can occur when you save a Git directory inside another Git project folder. Nested projects including `.git` folders are not easy to detect if you have not idea how to recognize a Git repository.   
+There are many errors that can occur when you save a Git directory inside another Git project folder. Nested projects including `.git` folders are not easy to detect if you have no idea how to recognize a Git repository.   
 
 
-## Other topics that should be mentioned /explained
+## Connection to related topics 
 
 :::{.callout-tip collapse=true}
 
@@ -39,25 +38,28 @@ There are many errors that can occur when you save a Git directory inside anothe
 
 Do the students have all what they need to work on your course? Software installation can be complex.
 
-- For a complete installation guide I suggest to follow [UBC MDS program installation instructions](https://ubc-mds.github.io/resources_pages/installation_instructions/) available for three different operating systems.
+- For a complete installation guide I recommend you follow [UBC MDS program installation instructions](https://ubc-mds.github.io/resources_pages/installation_instructions/) available for three different operating systems (Mac, Linux and Windows).
 
-- If want only to install Git, [Code Refinery has a specific section](https://coderefinery.github.io/installation/shell-and-git/#installation) on its material with their suggested installation also prepared for the three operating systems.
+- If you only want to install Git, [Code Refinery has a specific section](https://coderefinery.github.io/installation/shell-and-git/#installation) on its material with their recommended installation also prepared for the three operating systems.
 
-- If you don't want to install the sooftware can also use other technologies as [Binder](https://mybinder.org/), that will make available
+- If you don't want to install the software, you can also use other technologies, such as [Binder](https://mybinder.org/).
 
-- Once the software is installed you would like to configure propoerly Git
-How to configure properly Git you can read the lesson chapter [Setting up Git from The Carpentries](https://swcarpentry.github.io/git-novice/02-setup/index.html). and also check this specific webpage from
+- Once the software is installed you will need to properly configure Git.
+To do this, you can read the lesson chapter [Setting up Git from The Carpentries](https://swcarpentry.github.io/git-novice/02-setup/index.html). and also check this specific webpage from
  
 :::
 
 ## Are your students ready for Git? Do they know about...
+
 - **...the file system?**   
-What is the working directory? What is the home directory? If this is the first time that the students are working with this vocabulary, [Glossario](https://glosario.carpentries.org/) is multilingual glossary for computing and data science terms.
+What is the *working directory*? What is the *home directory*? If this is the first time that the students are working with this vocabulary, [Glossario](https://glosario.carpentries.org/) is a multilingual glossary for computing and data science terms.  
+
 - **...hidden folders?**   
-The `.git` folder is a hidden folder. Are the students familiar with this concept? How can they confirm that there is a hidden folder. The Carpentries lesson about Git has good material about it
+The `.git` folder is a hidden folder. Are the students familiar with this concept? How can they confirm that it is a hidden folder? The Carpentries lesson about Git has good material about it. 
+
 - **...the command line?**  
-If you are going to teach Git commands using the command line. Are the students familiar with their use? If it is not the case there are many IDEs as RStudio, VSCode or JupyterLab that provide interfaces to access the commands. The carpentries lesson about UNIX Shell is good resource to extract exercises and other valuable material.
-If your students already know about the command line, using [Aliases and other advanced  configuration](https://coderefinery.github.io/git-intro/aliases/#list-of-aliases-the-instructors-use) could be an option.
+Are the students familiar with the use of the command line? If it is not the case there are many IDEs as RStudio, VSCode or Jupyter Lab that provide interfaces to access the commands. The Carpentries lesson about UNIX Shell is good resource to extract exercises and other valuable material.
+If your students already know about the command line, providing there is more advanced material that can also be provided or taught [Aliases and other advanced  configuration](https://coderefinery.github.io/git-intro/aliases/#list-of-aliases-the-instructors-use) could be an option.
 
 ## Mental Model 
 

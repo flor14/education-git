@@ -2,7 +2,7 @@
 title: "1.2 - Basic workflow"
 description: | 
               - Implement Git’s clone, add, status, commit, pull, and push operations on the command line.
-              - Understand what implies using the staging area in a Git workflow.
+              - Explain where information is stored at each stage of that cycle.
 date: "01/27/2023"
 image: img/arrows.jpg
 categories:
@@ -18,21 +18,19 @@ bibliography: references.bib
 ---
 
 
-## Why to teach this?
+## Why teach this?
 
 **Implement Git’s clone, add, status, commit, pull, and push operations on the command line.**
--  Understand what the commands are doing in relation with the different elements involved (ie. what is the `staging area`, the `index`, the `repository` and the `working directory`?) is not trivial and should actively involve part of the classes activities. Building a basic but functional initial representation of Git system could be the major learning goal of any Git course teaching the basic workflow.
+-  Understanding what the commands are doing in relation to the different elements involved, is no trivial task. Further, this should be actively involved in the class activities.
+Building a basic but functional initial representation of Git system could be a major challenge of any Git course teaching the basic workflow.
 
-**Understand what implies using the staging area in a Git workflow**
-- .
+**Explain where information is stored at each stage of that cycle.** (extracted from [The Carpentries](https://swcarpentry.github.io/git-novice/04-changes/index.html))
+- This involves explicitly defining all the compartments the students should recognize to be able to use Git effectively (ie. what is the `staging area`, the `index`, the `repository` and the `working directory`?)
 
-## Connection to other relevant topics hat should be mentioned /explained
+## Connection to related topics 
 
-#### Git related
-
-- **The staging area and the local repository**
-- These two compartments should be introduce to finish figuring out a mental model.
-  [This lesson](https://coderefinery.github.io/git-intro/staging-area/) of code refinery focus on the staging area, teaching a lot of commands related to it. It would be a nice exercise to go through this after the students finished learning the initial Git commands.
+- **Focus on all the pieces of your representations**
+[This interesting lesson](https://coderefinery.github.io/git-intro/staging-area/) by Code Refinery is focused on the staging area and all the commands involved with it. It would be a valuable exercise in strengthening the mental model after students have learned the initial Git commands.
 
 - **Best practices**
   - How often to commit, pull and push. 
@@ -40,9 +38,7 @@ bibliography: references.bib
   
 
 - **.gitignore**
-Once we teach that there is a remote repository and that we can push there, it is possible to introduce `.gitignore`.
-Material: 
-
+Once we teach about hidden folders and the basic Git Workflow, it is possible to introduce `.gitignore`.
 
 
 ## Mental Model 
@@ -59,7 +55,7 @@ Material:
 - Git Kata -  [Git Kata: Basic Staging](https://github.com/eficode-academy/git-katas/blob/master/basic-commits/README.md)
 - Learn enough Git to Be Dangerous - Michale Harti [Our first commit - exercises](https://www.learnenough.com/git-tutorial#sec-exercises_our_first_commit)
 - Learn enough Git to Be Dangerous - Michale Harti [Adding a tag -  `git log` exercise](https://www.learnenough.com/git-tutorial#sec-exercises_adding_a_tag)
-- https://github.com/UOL-CS/gitruler-b-1
+- [Git Ruler (bot updated since 2018)](https://github.com/UOL-CS/gitruler-b-1)
 
 # References {.unnumbered}
 
