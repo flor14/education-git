@@ -13,24 +13,28 @@ categories:
 bibliography: references.bib
 ---
 
-## Why to teach this?
-- Most of the Git courses start saying that Git is the tool that will help you to track the history of your project and version control your files. But, what does it means? 
+## Why teach this?
 
-The motivating example we gave at the start of the class should be explicitly connected with the use of the tool. It seems important to link the real world example with the representation, in this case how the changes in our files are saved in the different commits, exemplifies well how version control works with Git.
+- **How to introduce the topic? Most of the Git courses start by saying that Git is the tool that will help you to track the history of your project and version control your files. But, what does that mean?*** 
 
-- Understanding how Git version control files is a good starting point to introduce `git diff <commit1-HASH> <commit2-HASH>` and complement it with `git log`.
+When we start a class it is common to use an engaging real-world example to demonstrate the utility of the tool are you about to teach. For example, you might start a Git lesson with a picture such as this: 
+
+![Do you have problems saving different versions of your files?]()
+
+What's important is to map the concrete example with the sequence of commands and terminology needed to explain during the class. If we move from this picture directly to explain a sequence of the commands, it will not be necessarily evident how Git can help us with the reproducibility. We should explain the analogy in full detail. 
+
+Revisiting the analogy at the end of the class could be a a good strategy to reinforce these connections after the topics
+
+- Understanding how Git controls the different file versions could be a good starting point to introduce `git diff <commit1-HASH> <commit2-HASH>` and complement it with `git log`.
 
 ## Other related topics
-- What is a HASH number and how Git uses it?
+- What is a HASH number and how does Git use it?
 This blogpost can help [Hash Values (SHA-1) in Git: What You Need To Know - Techlife](https://www.designveloper.com/blog/hash-values-sha-1-in-git/)
+
 - Flags
-Some flags could be useful to visualize with more detail the difference among the versions.
+Some flags could be useful to visualize the difference among the versions with more detail.
 
-- How to visualize among files with the URL using GitHub
-
-- Best practices
-  - Good commit's names
-
+- How to visualize differences among files with the URL using GitHub
 
 ## Mental model
 

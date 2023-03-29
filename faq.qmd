@@ -4,29 +4,22 @@ sidebar: false
 page-layout: full
 ---
 
-### Why are you doing this? Is there not enough good material out there?
-
-Yes, it is good material! In the section I recommend some of my favorites. But pay attention that all of that material is for **learning** Git and GitHub, but not for **teaching** it!
-
-And also if it is a lot of material about education on itself, I found a hard time finding specific examples on how to teach the specific didactic. Some of this is far common in other fields.
-
 ### How this information could be useful for an educator?
 
-Part of this website's material could be used, for example, to adapt a The Carpentries lesson for the specific needs of the course you are teaching. Are you using the material to teach undergrad students with no background on computer sciences? Are you covering different ages? Are you training scientist? Are your students struggling with a particular topic and you would like to reinforce a topic with more activities but you don't have time to create new ones? On this cases I think
+Are you using the material to teach undergrad students with no background in computer sciences? Are you training scientists? Would you like to reinforce a topic with more activities but you don't have time to create new ones? Here you can find a selection of activities that you can use.
+Part of this website's material could be used, for example, to complement a The Carpentries lesson for the specific needs of the course you are teaching.
 
-I came with this idea as I have been redeveloping DSCI 521 for the Master of Data Science Program at the University of British Columbia, where I am currently working in a postdoc position. Last year I taught this course for the first time and listen carefully questions and comments of the students about version control.
-
-My goal with this website is to condense information that is potentially good for educators that are brave enough to propose a new curriculum for the version control lessons or redesign/adapt the classes you are using (for example The Carpentries).
-
+I came up with this idea as I was redeveloping a course for the Master of Data Science Program at the University of British Columbia, where I am currently working in a postdoc position. 
 
 ### Can I learn Git and GitHub from this website?
 
-Well, it was not my original purpose. There are many good tutorials and courses that you can explore for free as for example The Carpentries course. Also I recommend Jenny Bryan's book "" and some other tutorials as X and Y. On the other hand, I couldn't ignore that some of this information
+Well, it was not my original purpose. There are many good tutorials and courses that you can explore for free, such as The Carpentries course. 
 
-### That you wrote this book means that you are an amazing instructor?
+### Does you making this website mean that you're an amazing instructor?
 
-Lol, no. Being a good instructor has far more than knowing what you should be teaching. Educators are like wine, they mature with the time and experience.
+Lol, no. Being a good instructor involves far more than knowing what you should be teaching. Educators are like wine, they mature with the time and experience.
+But, I hope that reflecting on this can get us all a little further along in our journeys to becoming the best instructors we can be.
 
 ### What is next?
 
-I will update this website at least 4 times more this year as I will be teaching courses where Git and GitHub are a important tool.
+I will update this website from time to time with the goal of providing material towards an advanced teaching course I'd like to create in the future.
