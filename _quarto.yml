@@ -22,8 +22,8 @@ website:
         file: material.qmd
       - text: "Towards an advanced Git Course"
         file: blogpost.qmd
-     # - text: "Other links"
-     #   file: how-to-interpret-the-material.qmd
+      - text: "Other materials"
+        file: books-blogßs.qmd
     #  - text: "FAQ"
     #    file: faq.qmd
       - text: "About"

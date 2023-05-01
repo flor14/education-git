@@ -1,0 +1,18 @@
+---
+title: "Other material: blogs and books"
+page-layout: full
+sidebar: false
+---
+
+> This is a list of blogs and books that cover Git and GitHub topics, but not necessarily have activities or exercises. 
+
+## Books
+
+- [Git Pro book](https://git-scm.com/book/en/v2)
+- [Happy Git with R](https://happygitwithr.com/)
+- [Best 16 Git books 2022 - Initial commit](https://initialcommit.com/blog/best-git-books-2022)
+
+## Blogs
+
+- [Initial commit](https://initialcommit.com/cluster/git-guides-and-git-tutorials)
+- [The Pragmatic Git](https://blog.git-init.com/)

@@ -78,7 +78,8 @@ Activities to create a repository on GitHub
 - Code refinery - Introduction to Version Control with Git
 Here you will find the [list of exercises](https://coderefinery.github.io/git-intro/exercises/). 
 
-- Happy git with R
+- [Happy git with R - workshops and activities](https://happygitwithr.com/workshops.html)
+In this book there are listed workshops where you can find material about this first topics.
 
 
 ## Other Git related topics that can be explained at this stage
