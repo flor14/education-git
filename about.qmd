@@ -14,7 +14,7 @@ about:
 sidebar: false
 ---
 
-Hi! If you want to know more you can read [my blog](www.florenciadandrea.com). Thank you!
+Hi! If you want to know more you can read [my blog](https://florenciadandrea.com). Thank you!
 
 
 Image extracted from: https://github.com/hendrixroa/in-case-of-fire
