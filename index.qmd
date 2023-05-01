@@ -20,6 +20,15 @@ bibliography: main-references.bib
 
 There are many online materials and tutorials to learn how to use Git. But this is not a course about Git. The idea of this webpage is to compile and share with educators who teach Git and GitHub with a series of tools. In this kit, each sub-topic has associated commands, visual representations, and activities to work with students. 
 
+
+:::{.callout-tip}
+
+# Would you like to contribute material?
+
+If you have any Git-related activities or materials that you would like to share and have included here, please feel free to submit them to me in accordance with the guidelines outlined in [CONTRIBUTING.md](https://github.com/flor14/education-git/blob/main/.github/CONTRIBUTING.md).
+
+:::
+
 Why compile this information?
 
 ## Dealing with abstraction
